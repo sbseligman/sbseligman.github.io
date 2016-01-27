@@ -1,4 +1,4 @@
-body {background-color: #a7a9ac}
+body {background-color: #d6d5d5}
 
 #name {
     width: 400px;
@@ -26,7 +26,7 @@ ul{
 }
 
 #subtitle {
-    color: white;
+    color: black;
     font-weight: 700;
     letter-spacing: 2px;
 }
@@ -35,7 +35,7 @@ ul{
     text-decoration: none;
     font-weight: 300;
     font-size: 18px;
-    color:  #737373;
+    color:  #8c8c8c;
     letter-spacing: .5px;
 }
 
@@ -65,20 +65,20 @@ li {
 	font-family:'Lato'
 }
 
-#portfolio {
-    color: white;
-    font-weight: 300;
-    font-size: 9px;
-    letter-spacing: 4px;
-    padding:20px; 
+#contact {
+    
+    position:relative;
+    right: 15px;
 }
 
-#contact {
-    color: white;
+.foot {
+    color: #8c8c8c;
     font-weight: 300;
     font-size: 9px;
     letter-spacing: 4px;
     padding:20px;
-    position:relative;
-    right: 15px;
+}
+
+.foot:hover {
+    color: black;
 }

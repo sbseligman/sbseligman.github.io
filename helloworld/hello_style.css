@@ -1,0 +1,86 @@
+body {background-color: #d6d5d5}
+
+#header{
+    background: white;
+    width: 100%;
+    position:fixed;
+    top:0px;
+    left: -2px;
+    margin: auto;
+}
+
+#helloradio{
+    position: relative;
+    width:100%;
+        right: 40%;
+    left:35%;
+    margin: auto;
+}
+
+#content{
+    position: relative;
+    top: 200px;
+    left: 10px;
+}
+
+table {  
+    font-family: lato;
+    text-align: center;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    width: 100%;
+}
+
+tr {
+    display: table-row;
+    vertical-align: center;
+    width: 100%;
+}
+
+td {
+    display: table-cell;
+    vertical-align: center;
+}
+
+
+#footer {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-family:'Lato'
+}
+
+#contact {
+    
+    position:relative;
+    right: 15px;
+}
+
+.foot {
+    color: #8c8c8c;
+    font-weight: 300;
+    font-size: 9px;
+    letter-spacing: 4px;
+    padding:20px;
+}
+
+#home:hover {
+    border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	padding:10px;
+	border-radius: 50px;
+	z-index: 10;
+    color: white;
+    font-weight: 400;
+}
+
+.foot:hover {
+    color: black;
+}
+

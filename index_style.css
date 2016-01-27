@@ -5,7 +5,7 @@ body {background-color: #a7a9ac}
 }
 
 #container {
-    top:50px;
+    top:120px;
     font-family:'Lato';
     position:relative;
     display: flex;

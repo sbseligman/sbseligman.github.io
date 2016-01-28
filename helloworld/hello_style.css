@@ -24,7 +24,7 @@ body {background-color: #d6d5d5}
 }
 
 table {  
-    font-family: lato;
+    font-family: 'Lato', Arial, sans-serif;
     text-align: center;
     display: table;
     border-collapse: separate;
@@ -52,7 +52,7 @@ td {
     flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	font-family:'Lato'
+	font-family:'Lato', Arial, sans-serif;
 }
 
 #contact {

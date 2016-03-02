@@ -50,3 +50,15 @@ $("#toggle").click(function() {
 
     
 });
+
+$("#status").mouseenter(function() {
+    if (clicked==true) {
+        $("#cat").css("display", "block");
+    }
+})
+
+$("#status").mouseleave(function() {
+    if (clicked==true) {
+        $("#cat").css("display", "none");
+    }
+})

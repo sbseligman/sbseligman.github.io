@@ -6,9 +6,9 @@ var hue = ["#ff8875", "#ff8875","#ff8875", "#fea367", "#fba46a", "#f7a56e",  "#f
 
 for (var i = 0; i < 500; i++) {
     var randshape = shape[Math.floor(Math.random() * shape.length)];
-    console.log(randshape);
-    $("body").append("<div class=box 'randshape'></div>");
-    $(".box").each(function() {
+    
+    $("body").append("<div class='box' " + randshape + "></div>");
+    $(".box").each(function sizeposcolor() {
         var randtop = Math.floor(Math.random() * 1000) - 10 + "px";
         var randleft = Math.floor(Math.random() * 1000) -10 + "px";
         var randsize = Math.floor(Math.random() * 100) -10 + "px";

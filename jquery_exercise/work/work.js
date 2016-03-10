@@ -12,4 +12,10 @@ var person = {
     location: "Brooklyn, NY"
 };
 
+
+function
+
+
+
+
 // JavaScript File

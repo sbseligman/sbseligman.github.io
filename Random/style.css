@@ -12,6 +12,19 @@ body {
 }
 
 
+.box{ 
+    position: fixed;
+    display: block;
+    top: 100px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 0;
+    opacity: 0.5;
+}
+
+
 #mount1 {
     position: fixed;
     bottom: -1px;

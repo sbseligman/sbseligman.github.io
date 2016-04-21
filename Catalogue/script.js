@@ -5,13 +5,27 @@ var covers = ["P_2000_SP3.png","P_2000_SP4.png","P_2001_SP2.png","P_2003_FA2.png
 
 var currentcover = false;
 
+$(".button").mousedown(function(){
+    $(this).css("background-color", "yellow");
+});
+$(".button").mouseup(function(){
+    $(this).css("background-color", "white");
+});
+
+$(".tab").click(function(){
+    $(".tab").css("background-color", "white");
+    $(this).css("background-color", "red");
+});
+
 
 $("#randmbutton").click(function(){
-    $("#randmbutton").css("background-color", "yellow");
-    $(".prattler").remove();
-    for (var i = 0; i < 5; i++){
-        $("body").append("<div class='prattler'></div>");
+    $(".stage").html("");
+    var currentcover = false;
+    for (var i = 0; i < 7; i++){
+        var temp_array = covers
+        $(".stage").append("<div class='prattler'></div>");
         $(".prattler").each(function() {
+            
             var randtop = Math.floor(Math.random() * 500) + "px";
             var randleft = Math.floor(Math.random() * 1200) + "px";
             var randz = Math.floor(Math.random()*30);
@@ -19,13 +33,20 @@ $("#randmbutton").click(function(){
             $(this).css("left", randleft);
             $(this).css("z-index", randz);
             
-            var randomcover = covers[Math.floor(Math.random()*covers.length)];
-            while (randomcover == currentcover) {
-                randomcover = covers[Math.floor(Math.random()*covers.length)];
-            };
-            currentcover = randomcover;
+            var selected = Math.floor(Math.random()*temp_array.length);
+            var randomcover = temp_array[ selected ];
+            temp_array.splice(selected, 1);
+ 
             $(this).html("<img src='img/covers/" + randomcover + "'>");
            
         });
     };
+});
+
+$(".prattler").click(function(){
+    var w = window.innerWidth + "px";
+    var h = window.innerHeight + "px";
+    $(".shadowbox").css("width", w);
+    $(".shadowbox").css("height", h);
+    $(".shadowbox").css("background-color", "black");   
 });

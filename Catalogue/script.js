@@ -19,28 +19,34 @@ $(".tab").click(function(){
 
 
 $("#randmbutton").click(function(){
+    //var countTotal = 0;
     $(".stage").html("");
     var currentcover = false;
     for (var i = 0; i < 7; i++){
-        var temp_array = covers
+        var temp_array = covers.slice(0);
+        //console.log(temp_array);
         $(".stage").append("<div class='prattler'></div>");
-        $(".prattler").each(function() {
+    };
+    $(".prattler").each(function() {
             
-            var randtop = Math.floor(Math.random() * 500) + "px";
-            var randleft = Math.floor(Math.random() * 1200) + "px";
-            var randz = Math.floor(Math.random()*30);
-            $(this).css("top", randtop);
-            $(this).css("left", randleft);
-            $(this).css("z-index", randz);
+        var randtop = Math.floor(Math.random() * 500) + "px";
+        var randleft = Math.floor(Math.random() * 1200) + "px";
+        var randz = Math.floor(Math.random()*30);
+        $(this).css("top", randtop);
+        $(this).css("left", randleft);
+        $(this).css("z-index", randz);
             
-            var selected = Math.floor(Math.random()*temp_array.length);
-            var randomcover = temp_array[ selected ];
-            temp_array.splice(selected, 1);
- 
-            $(this).html("<img src='img/covers/" + randomcover + "'>");
+        var selected = Math.floor(Math.random()*temp_array.length);
+        //console.log(selected);
+        //countTotal++;
+        //console.log(countTotal);
+        var randomcover = temp_array[ selected ];
+        console.log(randomcover);
+        $(this).html("<img src='img/covers/" + randomcover + "'>");
+        temp_array.splice(selected, 1);
            
         });
-    };
+
 });
 
 $(".prattler").click(function(){

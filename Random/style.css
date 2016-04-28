@@ -9,6 +9,7 @@ body {
 	margin: 0 auto;
 	top: -100px;
 	left: -100px;
+
 }
 
 
@@ -177,6 +178,7 @@ body {
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
+
 }
 
 .starsky{

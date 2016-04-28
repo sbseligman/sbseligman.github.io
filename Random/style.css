@@ -144,3 +144,41 @@ body {
 	border-bottom: 500px solid rgb(14, 200, 133);
 	z-index: 199;
 }
+
+.sun {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	left: 200px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	z-index: 5;
+}
+
+.sunb {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	left: 200px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	z-index: 4;
+}
+
+.star {
+	position: fixed;
+	width: 4px;
+	height: 4px;
+	background: white;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.starsky{
+	position: fixed;
+}

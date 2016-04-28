@@ -13,23 +13,10 @@ body {
 }
 
 
-.box{ 
-    position: fixed;
-    display: block;
-    top: 100px;
-    left: 100px;
-    width: 100px;
-    height: 100px;
-    background-color: teal;
-    margin: 0;
-    opacity: 0.5;
-}
-
-
 #mount1 {
     position: fixed;
     bottom: -1px;
-    left: -300px;
+    left: -30%;
     width: 0;
 	height: 0;
 	border-left: 400px solid transparent;
@@ -41,7 +28,7 @@ body {
 #mount1b {
     position: fixed;
     bottom: -1px;
-    left: -300px;
+    left: -30%;
     width: 0;
 	height: 0;
 	border-left: 400px solid transparent;
@@ -77,7 +64,7 @@ body {
 #mount3 {
     position: fixed;
     bottom: -1px;
-    left: 300px;
+
     width: 0;
 	height: 0;
 	border-left: 600px solid transparent;
@@ -89,7 +76,7 @@ body {
 #mount3b {
     position: fixed;
     bottom: -1px;
-    left: 300px;
+
     width: 0;
 	height: 0;
 	border-left: 600px solid transparent;
@@ -101,7 +88,7 @@ body {
 #mount4 {
     position: fixed;
     bottom: -1px;
-    left: 700px;
+    right: 30%;
     width: 0;
 	height: 0;
 	border-left: 400px solid transparent;
@@ -113,7 +100,7 @@ body {
 #mount4b {
     position: fixed;
     bottom: -1px;
-    left: 700px;
+    right: 30%;
     width: 0;
 	height: 0;
 	border-left: 400px solid transparent;
@@ -150,7 +137,7 @@ body {
 	position: fixed;
 	width: 100px;
 	height: 100px;
-	left: 200px;
+	left: 15%;
 	background: red;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
@@ -162,7 +149,7 @@ body {
 	position: fixed;
 	width: 100px;
 	height: 100px;
-	left: 200px;
+	left: 15%;
 	background: yellow;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
@@ -170,8 +157,20 @@ body {
 	z-index: 4;
 }
 
-.star {
+.moon {
 	position: fixed;
+	width: 100px;
+	height: 100px;
+	right: 20%;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	z-index: 4;
+}
+
+.star {
+	position: absolute;
 	width: 4px;
 	height: 4px;
 	background: white;
@@ -183,4 +182,7 @@ body {
 
 .starsky{
 	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
 }

@@ -5,7 +5,7 @@ var w = window.innerWidth;
 var navleft = (w - 180)/2;
 //console.log(navleft);
 $(".nav").css("left", navleft);
-
+$(".footer").css("width", w + "px");
 
 var covers = ["P_2000_SP3.png","P_2000_SP4.png","P_2001_SP2.png","P_2003_FA2.png","P_2003_FA3.png","P_2007_FA.png","P_2007_FA2.png","P_2007_SP.png","P_2014_FA3.png","P_2015_FA1.png","P_2015_FA2a.png","P_2015_FA2b.png","P_2015_SP2.png","P_2016_SP1.png"];
 
@@ -115,9 +115,34 @@ var h = window.innerHeight + "px";
 //console.log(w, h);
 $(".shadowbox").css("width", w);
 $(".shadowbox").css("height", h);
-$(".prattler").click(function(){
+$("body").append("<div id='testbutton>Test</div>;");
+$(".title").click(function(){
+    var countTotal = 0;
     countTotal++;
     console.log(countTotal);
-    $(".reader").css("display","flex");
     $(".reader").fadeIn();
+    $(".reader").css("display","flex");
+});
+$("#exit").click(function() {
+   $(".reader").css("display","none");
+});
+
+culture = ["Culture_0.png","Culture_1.png","Culture_2.png","Culture_3.png","Culture_4.png","Culture_5.png"];
+
+    var num = 1;
+    var totalpgs = culture.length;
+    var pgsleft = culture.length - num;
+    var currentpgright = totalpgs - pgsleft;
+    
+
+    
+    console.log(currentpgright);
+    
+$(".rightpg").click(function() {
+    $(".rightpg").css("background-color", "yellow");
+    var num = num + 2;
+    var leftpage = culture[currentpgright-1];
+    var rightpage = culture[currentpgright];
+    console.log(leftpage);
+    console.log(rightpage);
 });

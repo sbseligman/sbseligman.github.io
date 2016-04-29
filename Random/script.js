@@ -21,10 +21,10 @@ $(window).mousemove(function(e) {
     $(".sky").css("background-color",newbg)
     $("#mount1").css("left", - 300 -  x * 0.05 );
     $("#mount1b").css("left", - 300 -  x * 0.05 );
-    $("#mount2").css("left", - 50 -  x * 0.03 );
-    $("#mount2b").css("left", - 50 -  x * 0.03 );
-    $("#mount3").css("right", + 50 +  x * 0.1 );
-    $("#mount3b").css("right", + 50 +  x * 0.1 );
+    $("#mount2").css("left", - 150 -  x * 0.03 );
+    $("#mount2b").css("left", - 150 -  x * 0.03 );
+    $("#mount3").css("right", - 250 +  x * 0.1 );
+    $("#mount3b").css("right", - 250 +  x * 0.1 );
     $("#mount4").css("right", - 400 +  x * 0.03 );
     $("#mount4b").css("right", - 400 +  x * 0.03 );
     var suntop = y +"px"
@@ -40,4 +40,12 @@ $(window).mousemove(function(e) {
     console.log(angle);
     $(".starsky").css("transform", "rotate(" + angle + ")");
     
+});
+
+//Mobile Touch
+
+var hammertime = new Hammer(myElement, myOptions);
+hammertime.get('pan').set({ direction: Hammer.DIRECTION_ALL });
+hammertime.on('pan', function(ev) {
+	console.log(ev);
 });

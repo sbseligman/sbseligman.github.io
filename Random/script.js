@@ -1,8 +1,8 @@
-for (var i = 0; i < 50; i++) {
+for (var i = 0; i < 75; i++) {
     $(".starsky").append("<div class='star'></div>");
 };
 $(".star").each(function(){
-         var randtop = Math.floor(Math.random() * window.innerHeight) + 0.05 + "px";
+         var randtop = Math.floor(Math.random() * window.innerHeight * 1.3) + 0.05 + "px";
          var randleft = Math.floor(Math.random() * window.innerWidth) + 0.05 + "px";
          $(this).css("top", randtop);
          $(this).css("left", randleft);
@@ -30,7 +30,7 @@ $(window).mousemove(function(e) {
     var suntop = y +"px"
     $(".sun").css("top", suntop);
     $(".sunb").css("top", suntop);
-    $(".moon").css("bottom", y*0.8 - 100 + "px");
+    $(".moon").css("bottom", y*0.9 + "px");
     $(".sun").css("opacity", opac);
     $(".star").css("opacity", opac);
     $(".moon").css("opacity", opac + 0.25);
@@ -39,10 +39,9 @@ $(window).mousemove(function(e) {
     var angle = (e.clientX/window.innerWidth)*135 + "deg";
     console.log(angle);
     $(".starsky").css("transform", "rotate(" + angle + ")");
-    
 });
 
-//Mobile Touch
+//Mobile Touch attempt
 
 var hammertime = new Hammer(myElement, myOptions);
 hammertime.get('pan').set({ direction: Hammer.DIRECTION_ALL });

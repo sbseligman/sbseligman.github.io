@@ -139,7 +139,8 @@ culture = ["Culture_0.png","Culture_1.png","Culture_2.png","Culture_3.png","Cult
     console.log(currentpgright);
     
 $(".rightpg").click(function() {
-    $(".rightpg").css("background-color", "yellow");
+    $(".leftpg").html("<img src='img/cultculture/Culture_2.png'style='width:100%;'>");
+    $(".rightpg").html("<img src='img/cultculture/Culture_3.png'style='width:100%;'>");
     var num = num + 2;
     var leftpage = culture[currentpgright-1];
     var rightpage = culture[currentpgright];

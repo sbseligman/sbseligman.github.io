@@ -166,7 +166,6 @@ h4 {
     width: 35%;
     margin-left: 5%;
     position: fixed;
-    background-color: blue;
     z-index: 502;
     left: 20%;
     height: 650px;
@@ -177,7 +176,6 @@ h4 {
     width: 35%;
     margin-right: 5%;
     position: fixed;
-    background-color: red;
     z-index: 502;
     left: 60%;
     height: 650px;
@@ -208,3 +206,8 @@ h4 {
     font-weight: 300;
 }
 
+img {
+    margin: 0px;
+    left: -20px;
+    top: -20px;
+}

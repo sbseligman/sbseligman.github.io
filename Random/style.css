@@ -44,7 +44,7 @@ body {
     width: 0;
 	height: 0;
 	border-left: 1350px solid transparent;
-	border-right: 1100px solid transparent;
+	border-right: 1600px solid transparent;
 	border-bottom: 1020px solid rgb(0, 0, 0);
 	z-index: 50;
 }
@@ -56,7 +56,7 @@ body {
     width: 0;
 	height: 0;
 	border-left: 1350px solid transparent;
-	border-right: 1100px solid transparent;
+	border-right: 1600px solid transparent;
 	border-bottom: 1020px solid rgb(239, 156, 6);
 	z-index: 49;
 }

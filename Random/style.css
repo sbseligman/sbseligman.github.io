@@ -145,9 +145,9 @@ body {
 
 .sunb {
 	position: fixed;
-	width: 100px;
+	width: 300px;
 	height: 100px;
-	left: 15%;
+	left: 25%;
 	background: yellow;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
@@ -157,9 +157,9 @@ body {
 
 .moon {
 	position: fixed;
-	width: 100px;
+	width: 300px;
 	height: 100px;
-	right: 20%;
+	right: 25%;
 	background: white;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;

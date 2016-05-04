@@ -61,8 +61,8 @@ document.addEventListener('touchmove', function(e) {
     $(".sky").css("background-color",newbg)
     $("#mount1").css("left", - 800 -  x * 0.07 );
     $("#mount1b").css("left", - 800 -  x * 0.07 );
-    $("#mount2").css("left", - 150 -  x * 0.015 );
-    $("#mount2b").css("left", - 150 -  x * 0.015 );
+    $("#mount2").css("left", - 50 -  x * 0.015 );
+    $("#mount2b").css("left", - 50 -  x * 0.015 );
     $("#mount3").css("right", - 150 +  x * 0.1 );
     $("#mount3b").css("right", - 150 +  x * 0.1 );
     $("#mount4").css("right", - 800 +  x * 0.04 );

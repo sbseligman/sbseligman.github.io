@@ -19,7 +19,7 @@ $(document).ready(function () {
         $("#mount3").css("opacity", opac);
         $("#tree1").css("opacity", opac);
         $("#mount4").css("opacity", opac);
-        var newbg = "rgba(34,59,103," + e.clientY/$(window).height() + 500 + ")";
+        var newbg = "rgba(34,59,103," + e.clientY/$(window).height() + ")";
         $(".sky").css("background-color",newbg)
         $("#mount1").css("left", - 300 -  x * 0.05 );
         $("#mount1b").css("left", - 300 -  x * 0.05 );
@@ -57,7 +57,7 @@ document.addEventListener('touchmove', function(e) {
     $("#mount3").css("opacity", opac);
     $("#tree1").css("opacity", opac);
     $("#mount4").css("opacity", opac);
-    var newbg = "rgba(34,59,103," + y/$(window).height() + 500 + ")";
+    var newbg = "rgba(34,59,103," + y/$(window).height() + ")";
     $(".sky").css("background-color",newbg)
     $("#mount1").css("left", - 300 -  x * 0.05 );
     $("#mount1b").css("left", - 300 -  x * 0.05 );

@@ -59,14 +59,14 @@ document.addEventListener('touchmove', function(e) {
     $("#mount4").css("opacity", opac);
     var newbg = "rgba(34,59,103," + y/$(window).height() + ")";
     $(".sky").css("background-color",newbg)
-    $("#mount1").css("left", - 300 -  x * 0.05 );
-    $("#mount1b").css("left", - 300 -  x * 0.05 );
-    $("#mount2").css("left", - 150 -  x * 0.03 );
-    $("#mount2b").css("left", - 150 -  x * 0.03 );
-    $("#mount3").css("right", - 250 +  x * 0.1 );
-    $("#mount3b").css("right", - 250 +  x * 0.1 );
-    $("#mount4").css("right", - 400 +  x * 0.03 );
-    $("#mount4b").css("right", - 400 +  x * 0.03 );
+    $("#mount1").css("left", - 600 -  x * 0.1 );
+    $("#mount1b").css("left", - 600 -  x * 0.1 );
+    $("#mount2").css("left", - 150 -  x * 0.04 );
+    $("#mount2b").css("left", - 150 -  x * 0.04 );
+    $("#mount3").css("right", - 150 +  x * 0.2 );
+    $("#mount3b").css("right", - 150 +  x * 0.2 );
+    $("#mount4").css("right", - 600 +  x * 0.06 );
+    $("#mount4b").css("right", - 600 +  x * 0.06 );
     var suntop = y +"px"
     $(".sun").css("top", suntop);
     $(".sunb").css("top", suntop);

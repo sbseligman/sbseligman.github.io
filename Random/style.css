@@ -19,7 +19,7 @@ body {
     left: -30%;
     width: 0;
 	height: 0;
-	border-left: 900px solid transparent;
+	border-left: 1300px solid transparent;
 	border-right: 1050px solid transparent;
 	border-bottom: 800px solid rgb(0, 0, 0);
 	z-index: 100;
@@ -31,7 +31,7 @@ body {
     left: -30%;
     width: 0;
 	height: 0;
-	border-left: 900px solid transparent;
+	border-left: 1300px solid transparent;
 	border-right: 1050px solid transparent;
 	border-bottom: 800px solid rgb(239, 176, 20);
 	z-index: 99;
@@ -66,9 +66,9 @@ body {
     bottom: -1px;
     width: 0;
 	height: 0;
-	border-left: 600px solid transparent;
-	border-right: 500px solid transparent;
-	border-bottom: 260px solid rgb(0, 0, 0);
+	border-left: 1400px solid transparent;
+	border-right: 1200px solid transparent;
+	border-bottom: 760px solid rgb(0, 0, 0);
 	z-index: 110;
 }
 
@@ -77,9 +77,9 @@ body {
     bottom: -1px;
     width: 0;
 	height: 0;
-	border-left: 600px solid transparent;
-	border-right: 500px solid transparent;
-	border-bottom: 260px solid rgb(255, 201, 77);
+	border-left: 1400px solid transparent;
+	border-right: 1200px solid transparent;
+	border-bottom: 760px solid rgb(255, 201, 77);
 	z-index: 109;
 }
 
@@ -89,9 +89,9 @@ body {
     right: 30%;
     width: 0;
 	height: 0;
-	border-left: 400px solid transparent;
-	border-right: 550px solid transparent;
-	border-bottom: 280px solid rgb(0, 0, 0);
+	border-left: 1500px solid transparent;
+	border-right: 1450px solid transparent;
+	border-bottom: 980px solid rgb(0, 0, 0);
 	z-index: 90;
 }
 
@@ -101,9 +101,9 @@ body {
     right: 30;
     width: 0;
 	height: 0;
-	border-left: 400px solid transparent;
-	border-right: 550px solid transparent;
-	border-bottom: 280px solid rgb(239, 156, 6);
+	border-left: 1500px solid transparent;
+	border-right: 1450px solid transparent;
+	border-bottom: 980px solid rgb(239, 156, 6);
 	z-index: 89;
 }
 

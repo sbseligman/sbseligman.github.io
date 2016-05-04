@@ -12,7 +12,7 @@ $(document).ready(function () {
 
     $(window).mousemove(function(e) {
         var x = e.clientX;
-        var y = e.clientY + 50;
+        var y = e.clientY + 500;
         var opac = e.clientY/$(window).height();
         $("#mount1").css("opacity", opac);
         $("#mount2").css("opacity", opac);
@@ -50,7 +50,7 @@ document.addEventListener('touchmove', function(e) {
     e.preventDefault();
     var touch = e.touches[0];
     var x = touch.clientX;
-    var y = touch.clientY + 50;
+    var y = touch.clientY + 500;
     var opac = y/$(window).height();
     $("#mount1").css("opacity", opac);
     $("#mount2").css("opacity", opac);

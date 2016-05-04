@@ -19,9 +19,9 @@ body {
     left: -30%;
     width: 0;
 	height: 0;
-	border-left: 1300px solid transparent;
+	border-left: 1500px solid transparent;
 	border-right: 1050px solid transparent;
-	border-bottom: 800px solid rgb(0, 0, 0);
+	border-bottom: 900px solid rgb(0, 0, 0);
 	z-index: 100;
 }
 
@@ -31,9 +31,9 @@ body {
     left: -30%;
     width: 0;
 	height: 0;
-	border-left: 1300px solid transparent;
+	border-left: 1500px solid transparent;
 	border-right: 1050px solid transparent;
-	border-bottom: 800px solid rgb(239, 176, 20);
+	border-bottom: 900px solid rgb(239, 176, 20);
 	z-index: 99;
 }
 

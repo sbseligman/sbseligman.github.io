@@ -12,14 +12,14 @@ $(document).ready(function () {
 
     $(window).mousemove(function(e) {
         var x = e.clientX;
-        var y = e.clientY + 2000;
+        var y = e.clientY;
         var opac = e.clientY/$(window).height();
         $("#mount1").css("opacity", opac);
         $("#mount2").css("opacity", opac);
         $("#mount3").css("opacity", opac);
         $("#tree1").css("opacity", opac);
         $("#mount4").css("opacity", opac);
-        var newbg = "rgba(34,59,103," + e.clientY/$(window).height() + 15 + ")";
+        var newbg = "rgba(34,59,103," + e.clientY/$(window).height() + 1000 + ")";
         $(".sky").css("background-color",newbg)
         $("#mount1").css("left", - 300 -  x * 0.05 );
         $("#mount1b").css("left", - 300 -  x * 0.05 );
@@ -50,14 +50,14 @@ document.addEventListener('touchmove', function(e) {
     e.preventDefault();
     var touch = e.touches[0];
     var x = touch.clientX;
-    var y = touch.clientY + 2000;
+    var y = touch.clientY;
     var opac = y/$(window).height();
     $("#mount1").css("opacity", opac);
     $("#mount2").css("opacity", opac);
     $("#mount3").css("opacity", opac);
     $("#tree1").css("opacity", opac);
     $("#mount4").css("opacity", opac);
-    var newbg = "rgba(34,59,103," + y/$(window).height() + ")";
+    var newbg = "rgba(34,59,103," + y/$(window).height() + 1000 + ")";
     $(".sky").css("background-color",newbg)
     $("#mount1").css("left", - 300 -  x * 0.05 );
     $("#mount1b").css("left", - 300 -  x * 0.05 );

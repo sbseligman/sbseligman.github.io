@@ -98,7 +98,7 @@ body {
 #mount4b {
     position: fixed;
     bottom: -1px;
-    right: 30;
+    right: 30%;
     width: 0;
 	height: 0;
 	border-left: 1500px solid transparent;

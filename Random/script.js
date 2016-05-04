@@ -63,10 +63,10 @@ document.addEventListener('touchmove', function(e) {
     $("#mount1b").css("left", - 600 -  x * 0.1 );
     $("#mount2").css("left", - 150 -  x * 0.04 );
     $("#mount2b").css("left", - 150 -  x * 0.04 );
-    $("#mount3").css("right", - 150 +  x * 0.2 );
-    $("#mount3b").css("right", - 150 +  x * 0.2 );
-    $("#mount4").css("right", - 600 +  x * 0.06 );
-    $("#mount4b").css("right", - 600 +  x * 0.06 );
+    $("#mount3").css("right", - 150 +  x * 0.15 );
+    $("#mount3b").css("right", - 150 +  x * 0.15 );
+    $("#mount4").css("right", - 800 +  x * 0.06 );
+    $("#mount4b").css("right", - 800 +  x * 0.06 );
     var suntop = y +"px"
     $(".sun").css("top", suntop);
     $(".sunb").css("top", suntop);

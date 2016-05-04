@@ -90,8 +90,8 @@ body {
     width: 0;
 	height: 0;
 	border-left: 1500px solid transparent;
-	border-right: 1450px solid transparent;
-	border-bottom: 980px solid rgb(0, 0, 0);
+	border-right: 1650px solid transparent;
+	border-bottom: 880px solid rgb(0, 0, 0);
 	z-index: 90;
 }
 
@@ -102,8 +102,8 @@ body {
     width: 0;
 	height: 0;
 	border-left: 1500px solid transparent;
-	border-right: 1450px solid transparent;
-	border-bottom: 980px solid rgb(239, 156, 6);
+	border-right: 1650px solid transparent;
+	border-bottom: 880px solid rgb(239, 156, 6);
 	z-index: 89;
 }
 

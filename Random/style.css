@@ -187,17 +187,20 @@ body {
 
 .container{
 	display: flex;
+	position: fixed;
 	align-items: center;
 	justify-content: center;
 	margin: 0, auto;
 	width: 100%;
 	bottom: 50px;
+	z-index: 500;
 }
 .directions{
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 24px;
+	font-size: 100px;
 	color: white;
 	text-align: center;
 	margin: 0, auto;
+	z-index: 500;
 }

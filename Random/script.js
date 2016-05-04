@@ -12,7 +12,7 @@ $(document).ready(function () {
 
     $(window).mousemove(function(e) {
         var x = e.clientX;
-        var y = e.clientY;
+        var y = e.clientY + 50;
         var opac = e.clientY/$(window).height();
         $("#mount1").css("opacity", opac);
         $("#mount2").css("opacity", opac);
@@ -50,14 +50,14 @@ document.addEventListener('touchmove', function(e) {
     e.preventDefault();
     var touch = e.touches[0];
     var x = touch.clientX;
-    var y = touch.clientY;
+    var y = touch.clientY + 50;
     var opac = y/$(window).height();
     $("#mount1").css("opacity", opac);
     $("#mount2").css("opacity", opac);
     $("#mount3").css("opacity", opac);
     $("#tree1").css("opacity", opac);
     $("#mount4").css("opacity", opac);
-    var newbg = "rgba(34,59,103," + y/window.innerHeight() + 15 + ")";
+    var newbg = "rgba(34,59,103," + y/$(window).height() + ")";
     $(".sky").css("background-color",newbg)
     $("#mount1").css("left", - 300 -  x * 0.05 );
     $("#mount1b").css("left", - 300 -  x * 0.05 );

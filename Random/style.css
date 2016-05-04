@@ -190,9 +190,10 @@ body {
 	position: fixed;
 	align-items: center;
 	justify-content: center;
-	margin: 0, auto;
+	margin: 0;
 	width: 100%;
 	bottom: 50px;
+	left: 0;
 	z-index: 500;
 }
 .directions{
@@ -203,4 +204,5 @@ body {
 	text-align: center;
 	margin: 0, auto;
 	z-index: 500;
+	bottom: 50px;
 }

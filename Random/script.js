@@ -65,8 +65,8 @@ document.addEventListener('touchmove', function(e) {
     $("#mount2b").css("left", - 50 -  x * 0.015 );
     $("#mount3").css("right", - 150 +  x * 0.1 );
     $("#mount3b").css("right", - 150 +  x * 0.1 );
-    $("#mount4").css("right", - 800 +  x * 0.04 );
-    $("#mount4b").css("right", - 800 +  x * 0.04 );
+    $("#mount4").css("right", - 1000 +  x * 0.04 );
+    $("#mount4b").css("right", - 1000 +  x * 0.04 );
     var suntop = y +"px"
     $(".sun").css("top", suntop);
     $(".sunb").css("top", suntop);
